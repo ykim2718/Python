@@ -51,7 +51,7 @@ REM === 6. Add remote origin only if it does not exist ===
 git remote | find "origin" >nul
 if %errorlevel% neq 0 (
     echo Adding remote origin...
-    git remote add origin https://github.com/ykim2718/Python-Snippets.git
+    git remote add origin https://github.com/ykim2718/Python.git
 )
 
 REM === 7. Push to remote ===
